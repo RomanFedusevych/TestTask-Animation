@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  mix-blend-mode: screen;
+} */
+
+.fon {
+  z-index: 0;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.fon2 {
+  position: static;
+  z-index: 0;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.video {
+  z-index: 0;
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fon__img {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  background: white url(./img/m-large.svg) no-repeat;
+
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+  mix-blend-mode: screen;
+}
